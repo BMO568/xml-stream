@@ -16,6 +16,5 @@ function setup(encoding) {
   return xml;
 }
 
-var xml = setup('utf8');       // Parse as UTF-8
 var xml = setup('iso-8859-5'); // Parse as ISO 8859-5
 var xml = setup();             // Detect on the fly.
